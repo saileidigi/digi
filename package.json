@@ -1,0 +1,29 @@
+{
+  "name": "@saileidigi/digi",
+  "version": "2.0.0-bate",
+  "description": "一个简单的js框架",
+  "main": "main.js",
+  "scripts": {
+    "start": "rollup --config rollup.config.js",
+    "dev": "rollup --watch --config rollup.config.dev.js",
+    "build": "rollup --config rollup.config.prod.js",
+    "doc": "jsdoc -c jsdoc/config.json -P package.json",
+    "test": "jest --config jest.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/saileidigi/digi.git"
+  },
+  "keywords": [
+    "js",
+    "javascript",
+    "framework",
+    "digi"
+  ],
+  "author": "lin09",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/saileidigi/digi/issues"
+  },
+  "homepage": "https://github.com/saileidigi/digi#readme"
+}
